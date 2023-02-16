@@ -1,0 +1,66 @@
+* {
+    padding: 0%;
+    margin: 0;
+}
+
+html {
+    justify-items: center;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(0, 157, 255), #FFFFFF, #FFFFFF, #FFFFFF, rgb(0, 157, 255));
+}
+
+#informacionGrl{
+    display: block;
+}
+
+#container {
+    margin: 0px 40px;
+    display: block;
+}
+
+.contenedorImg {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.informacionGeneral{
+    font-weight: 900;
+    border: none;
+    background-color: transparent;
+}
+
+.info{
+    font-weight: 700;
+}
+
+.title {
+    font-family: 'Mukta', sans-serif;
+    font-size: 20px;
+}
+
+button{
+    border: none;
+    padding: 2px;
+    background-color: transparent;
+    border-bottom: solid 2px #653e3e;
+}
+
+button a{
+    color: #000000;
+    text-decoration: none;
+}
+
+button :hover{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.tiempoLaboral {
+    display: grid;
+    grid-template-columns: repeat(2, 150px 140px);
+}
+
+.texto{
+    font-weight: 400;
+    font-family: 'Source Code Pro', monospace;
+}
